@@ -21,6 +21,23 @@ function App() {
             image="https://upload.wikimedia.org/wikipedia/commons/c/cc/Amazon_Alexa_App_Logo.png"
             />
           </div>
+
+          <div className="column is-4">
+            <ProfileCard
+            title="cortana"
+            handle="@cortana"
+            image="https://wallpapers.com/images/featured/halo-cortana-0f24lzzchpkrhonv.jpg"
+            />
+          </div>
+
+          <div className="column is-4">
+            <ProfileCard
+            title="siri"
+            handle="@siri "
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaZVBdmqGWyTbAc4H_zSRMHIOxCgPoasqVA&s"
+            />
+          </div>
+
           <div className="column is-4">
             <ProfileCard/>
           </div>
